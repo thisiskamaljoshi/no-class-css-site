@@ -34,11 +34,11 @@ header div button {
 
 header div button:first-of-type {
     background-color: #fff;
-    color: #28CB8B;
-    
+    color: var(--primary);
+    margin-right: 15px;
 }
 
 header div button:last-of-type {
-    background-color: #28CB8B;
+    background-color: var(--primary);
     color:#fff;
 }

@@ -1,0 +1,51 @@
+/* section styles */
+
+main section:nth-of-type(1){
+    display: flex;
+    gap:20px;
+}
+
+main section:nth-of-type(1) > *{
+    width:50%;
+}
+
+/* left section styles */
+/* text */
+
+main section:nth-of-type(1) article div p {
+    font-size:30px;
+    font-weight: 600;
+    margin-block: 5px;
+}
+
+main section:nth-of-type(1) article div p:nth-of-type(1) {
+    color:var(--dgrey);
+}
+
+main section:nth-of-type(1) article div p:nth-of-type(2) {
+    color:var(--primary);
+    margin-bottom: 15px;
+}
+
+/* left section styles */
+/* button */
+
+main section:nth-of-type(1) article button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: var(--primary);
+    color: var(--white);
+    border: initial;
+    cursor: pointer;
+}
+
+main section:nth-of-type(1) article button:hover{
+    opacity: 0.9;
+}
+
+/* right image styles */
+
+main section:nth-of-type(1) figure img{
+    display: block;
+    object-fit: cover;
+}

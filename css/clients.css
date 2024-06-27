@@ -1,0 +1,26 @@
+main section:nth-of-type(2) {
+    text-align: center;
+    padding-inline: 40px;
+    background-color: #fff;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+
+main section:nth-of-type(2) article{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+main section:nth-of-type(2) article figure{
+    margin:0;
+}
+
+
+
+main section:nth-of-type(2) h2{
+    margin-bottom: 5px;
+}
+
