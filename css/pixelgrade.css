@@ -1,0 +1,21 @@
+main section:nth-of-type(4) {
+    display: flex;
+    background-color: #fff;
+    margin-top: 0;
+    padding-bottom: 30px;
+}
+
+main section:nth-of-type(4) article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+main section:nth-of-type(4) > *{
+    width:50%;
+}
+
+main section:nth-of-type(4) article button{
+    margin-top: 0;
+}

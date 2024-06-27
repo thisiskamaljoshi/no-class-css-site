@@ -30,7 +30,7 @@ main section:nth-of-type(1) article div p:nth-of-type(2) {
 /* left section styles */
 /* button */
 
-main section:nth-of-type(1) article button{
+main section:nth-of-type(1) article button , main section:nth-of-type(4) article button{
     margin-top: 30px;
     padding: 10px 20px;
     background-color: var(--primary);
